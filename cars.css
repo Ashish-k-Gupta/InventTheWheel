@@ -308,8 +308,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /* Components */
 /* -------------------------- */
 
-
-
 .large-button{
 font-size: 1.4rem;
 margin-top: 2rem;
@@ -325,6 +323,7 @@ text-align: center;
 line-height: 1.4em;
 }
 
+
 .large-button::after{
   content: '';
   position: absolute;
@@ -335,7 +334,6 @@ line-height: 1.4em;
   border-radius: inherit;
   opacity: 0;
   transition: opacity 500ms linear , transform 750ms ease-in-out;
-
 }
 
 .large-button:hover::after,
@@ -345,6 +343,7 @@ line-height: 1.4em;
 }
 
 /* Primary-header */
+
 
 .logo{
   width: 6rem;
@@ -358,8 +357,9 @@ line-height: 1.4em;
 }
 
 .primary-navigation {
+  white-space: nowrap;
   --gap: clamp(1.5rem, 5vw, 3.5rem);
-  --underline-gap: 2rem 0 1rem ;
+  --underline-gap: 2rem 0 1rem;
   --gap: 7rem;
   list-style: none;
   padding: 0;
