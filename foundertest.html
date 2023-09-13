@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cars.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+      
+
+</head>
+
+<body class="crew">
+  <a class="skip-to-content" href="#main">Skip to content</a>
+  <header class="primary-header flex">
+    <div>
+        <img src="ProjectImages/ford-8.svg" alt="company" class="logo flex">
+      </div>
+  
+      
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only"
+        aria-expanded="false">Menu<span>
+    </button>
+
+    <nav> 
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+              <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="indexcars.html"><span aria-hidden="true">01</span>Home</a></li>
+              <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="sedancars.html"><span aria-hidden="true">02</span>Cars</a></li>
+              <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="foundertest.html"><span aria-hidden="true">03</span>Founders</a></li>
+              <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span aria-hidden="true">04</span>contact us</a></li>
+            </ul>
+          </nav>
+  </header>
+
+  <div class="mainImg">
+  <img src="ProjectImages/drawing car.png" alt="img">
+</div>
+
+  <main id="main" class="grid-container grid-container--crew flow">
+    <h1 class="numbered-title"><span aria-hidden="true">02</span> Meet your crew</h1>
+    
+
+    <div class="dot-indicators flex" role="tablist" aria-label="founder list">
+        <button aria-selected="true" aria-controls="tesla-tab" role="tab" data-image="tesla-founder-image" tabindex="0"><span class="sr-only">Tesla X</span></button>
+            <button aria-selected="false" aria-controls="ford-tab" role="tab" data-image="ford-founder-image" tabindex="-1"><span class="sr-only">Ford-GT</span></button>
+            <button aria-selected="false" aria-controls="porsche-tab" role="tab" data-image="porsche-founder-image" tabindex="-1"><span class="sr-only">Porsche 911</span></button>
+            <button aria-selected="false" aria-controls="jeep-tab" role="tab" data-image="jeep-founder-image" tabindex="-1"><span class="sr-only">Jeep Compas</span></button>
+            <button aria-selected="false" aria-controls="mercedes-tab" role="tab" data-image="mercedes-founder-image" tabindex="-1"><span class="sr-only">Mercedes AMG</span></button>
+      </div>
+    
+    <!-- commander -->
+    
+    <article class="founder-details flow" id="tesla-tab" role="tabpanel" tabindex="0">
+        <header class="flow flow--space-small">
+          <h2 class="fs-600 ff-serif uppercase">Founders</h2>
+          <p class="fs-700 uppercase ff-serif">Martin Eberhard and Marc Tarpenning</p>
+        </header>
+        <p>ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolores molestiae blanditiis veritatis voluptate, modi
+          voluptatem consequatur cupiditate quaerat ut unde, illum eum minus magnam distidit, sit corporis iusto quia a
+          optio earum atque voluptatum amet illo porro veritatis suscipit deserunt laborum, repellendus beatae temporibus
+          ipsum? Veritatis magni voluptates perspiciatis dolorem atque sit beatae quia.
+        </p>
+      </article>
+  
+  
+  
+      <article hidden class="founder-details flow" id="ford-tab" role="tabpanel" tabindex="0">
+        <header class="flow flow--space-small">
+          <h2 class="fs-600 ff-serif uppercase">Founders</h2>
+          <p class="fs-700 uppercase ff-serif">Henry Ford</p>
+        </header>
+        <p>ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolores molestiae blanditiis veritatis voluptate, modi
+          voluptatem consequatur cupiditate quaerat ut unde, illum eum minus magnam distinctio? Odit, sit corporis iusto
+          quia a optio earum atque voluptatum amet illo porro veritatis suscipit deserunt laborum, repellendus beatae
+          temporibus ipsum? Veritatis magni voluptates perspiciatis dolorem atque sit beatae quia.
+        </p>
+      </article>
+  
+  
+  
+      <article hidden class="founder-details flow" id="porsche-tab" role="tabpanel" tabindex="0">
+        <header class="flow flow--space-small">
+          <h2 class="fs-600 ff-serif uppercase">Founders</h2>
+          <p class="fs-700 uppercase ff-serif">Ferdinand Porsche</p>
+        </header>
+        <p>ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolores molestiae blanditiis veritatis voluptate, modi
+          voluptatem consequatur cupiditate quaerat ut unde, illum eum minus magnam distinctio? Odit, sit corporis iusto
+          quia a optio earum atque voluptatum amet illo porro veritatis suscipit deserunt laborum, repellendus beatae
+          temporibus ipsum? Veritatis magni voluptates perspiciatis dolorem atque sit beatae quia.
+        </p>
+      </article>
+  
+  
+      <article hidden class="founder-details flow" id="jeep-tab" role="tabpanel" tabindex="0">
+        <header class="flow flow--space-small">
+          <h2 class="fs-600 ff-serif uppercase">Founders</h2>
+          <p class="fs-700 uppercase ff-serif">Karl Probst</p>
+        </header>
+        <p>Karl Probst was an American freelance engineer and automotive pioneer, credited with drafting the design
+          drawings of the first prototype of the Bantam Reconnaissance Car, also known as the World War II "jeep" in 1940.
+          He was born in Point Pleasant, West Virginia to Charles and Eva Probst
+        </p>
+      </article>
+  
+  
+      <article hidden class="founder-details flow" id="mercedes-tab" role="tabpanel" tabindex="0">
+        <header class="flow flow--space-small">
+          <h2 class="fs-600 ff-serif uppercase">Founders</h2>
+          <p class="fs-700 uppercase ff-serif">Carl Benz</p>
+        </header>
+        <p>ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolores molestiae blanditiis veritatis voluptate, modi
+          voluptatem consequatur cupiditate quaerat ut unde, illum eum minus magnam distinctio? Odit, sit corporis iusto
+          quia a optio earum atque voluptatum amet illo porro veritatis suscipit deserunt laborum, repellendus beatae
+          temporibus ipsum? Veritatis magni voluptates perspiciatis dolorem atque sit beatae quia.
+        </p>
+      </article>
+  
+  
+    
+      <picture id="tesla-founder-image">
+        <img src="ProjectImages/Martin-Eberhard-and-Marc-Tarpenning.webp" alt="Douglas Hurley">
+      </picture>
+      <picture hidden id="ford-founder-image">
+        <img src="ProjectImages/henry-ford-.jpg" alt="Ford founder">
+      </picture>
+      <picture hidden id="porsche-founder-image">
+        <img src="ProjectImages/porschefounder.jpg" alt="Ferdinand Porsche image">
+      </picture>
+      <picture hidden id="jeep-founder-image">
+        <img src="ProjectImages/Karl_.jpg" alt="Karl Probst image">
+      </picture>
+      <picture hidden id="mercedes-founder-image">
+        <img src="ProjectImages/carl-benz.jfif" alt="Henry Ford image">
+      </picture>
+  
+  
+  
+    </main>
+    <script src="tabs.js"></script>
+  </body>
+  
+  </html>

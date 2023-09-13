@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <!-- Our custom css -->
+  <link rel="stylesheet" href="cars.css">
+  <script src="car.js" defer></script>
+  <script src="tabs.js" defer></script>
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <title>Testcarlux</title>
+</head>
+
+<body class="destination" style="background: hsl(var(--clr-dark)); background-position: center center;">
+  <a class="skip-to-content" href="#main">skip to content</a>
+
+  <!-- <div class="background-box"> -->
+
+  <header class="primary-header flex">
+    <div>
+      <img src="ProjectImages/tesla-motors.svg" alt="company" class="logo flex">
+    </div>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only"
+        aria-expanded="false">Menu<span></button>
+    <nav>
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+        <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="indexcars.html"><span aria-hidden="true">01</span>Home</a>
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="sedancars.html"><span aria-hidden="true">02</span>Cars</a> 
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="foundertest.html"><span aria-hidden="true">03</span>Founders</a> 
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span aria-hidden="true">04</span>contact us</a>
+          
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <main id="main" class="grid-container grid-container--tesla flow">
+
+    <h1 class="numbered-title"><span aria-hidden="true">01</span>Pick you sedan</h1>
+
+
+    <picture id="tesla-image">
+      <img class="sedanCars" src="ProjectImages/tesla-car.jpg" alt="the tesla">
+    </picture>
+    <picture hidden id="ford-image">
+      <img class="sedanCars" src="ProjectImages/amg.jpg" alt="the planet ford">
+    </picture>
+    <picture hidden id="porsche-image">
+      <img class="sedanCars" src="ProjectImages/poecha911.jpg" alt="the planet porsche">
+    </picture>
+    <picture hidden id="jeep-image">
+      <img class="sedanCars" src="ProjectImages/jeep.jpg" alt="the jeep">
+    </picture>
+    <picture hidden id="mercedes-image">
+      <img class="sedanCars" src="ProjectImages/amg2.jpg" alt="Pick your Mercedes AMG">
+    </picture>
+    
+
+
+    <div class="tab-list underline-indicators flex" role="tablist" aria-label="destination list">
+      <button aria-selected="true" role="tab" aria-controls="tesla-tab" class="uppercase ff-sans-cond text-accent bg-transparent letter-spacing-2" tabindex="0" data-image="tesla-image">Tesla</button>
+      <button aria-selected="false" role="tab" aria-controls="ford-tab"
+        class="uppercase ff-sans-cond text-accent bg-transparent letter-spacing-2" tabindex="-1"
+        data-image="ford-image">Ford</button>
+      <button aria-selected="false" role="tab" aria-controls="porsche-tab"
+        class="uppercase ff-sans-cond text-accent bg-transparent letter-spacing-2" tabindex="-1"
+        data-image="porsche-image">Porsche</button>
+      <button aria-selected="false" role="tab" aria-controls="jeep-tab"
+        class="uppercase ff-sans-cond text-accent bg-transparent letter-spacing-2" tabindex="-1"
+        data-image="jeep-image">jeep</button>
+      <button aria-selected="false" role="tab" aria-controls="mercedes-tab"
+        class="uppercase ff-sans-cond text-accent bg-transparent letter-spacing-2" tabindex="-1"
+        data-image="mercedes-image">Mercedes</button>
+    </div>
+
+    <!-- TESLA -->
+
+    <article class="tesla-info flow" id="tesla-tab" tabindex="0" role="tabpanel">
+
+      <h2 class="fs-800 uppercase ff-serif">Tesla</h2>
+
+      <p>Tesla Motors was founded as an electric carmaker by engineers Martin Eberhard and Marc Tarpenning in 2003. Elon
+        Musk, co-founder of Paypal, led the initial rounds of investing for Tesla before taking over as CEO. In 2008,
+        Tesla released its first electric car, the Roadster.</p>
+
+      <div class="sedan-cars flex">
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Avg. distace</h3>
+          <p class="fs-500 ff-serif uppercase">400 Miles</p>
+        </div>
+
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Charging time</h3>
+          <p class="fs-500 ff-serif uppercase">up to 200 Miles in 15 minutes</p>
+        </div>
+      </div>
+
+    </article>
+    <!-- FORD -->
+    <article hidden class="tesla-info flow" id="ford-tab" tabindex="0" role="tabpanel">
+
+      <h2 class="fs-800 uppercase ff-serif">ford</h2>
+
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, deserunt dolore! Nisi distinctio nam
+        tempora, amet quidem unde et, facere, tenetur magni quae quasi. Asperiores libero totam vel iste alias sequi
+        fuga magni perferendis cupiditate. </p>
+
+      <div class="sedan-cars flex">
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Avg. distace</h3>
+          <P class="fs-500 ff-serif uppercase">400 Miles</p>
+        </div>
+
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Charging time</h3>
+          <p class="fs-500 ff-serif uppercase">up to 200 Miles in 15 minutes</p>
+        </div>
+      </div>
+
+    </article>
+    <!-- PORSCHE -->
+    <article hidden class="tesla-info flow" id="porsche-tab" tabindex="0" role="tabpanel">
+
+      <h2 class="fs-800 uppercase ff-serif">PORSCHE</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, totam rem tenetur illum earum ut eligendi
+        reprehenderit minima molestias recusandae natus! Magni impedit veniam, beatae sunt perspiciatis optio hic. </p>
+
+      <div class="sedan-cars flex">
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Avg. distace</h3>
+          <p class="fs-500 ff-serif uppercase">400 Miles</p>
+        </div>
+
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Charging time</h3>
+          <p class="fs-500 ff-serif uppercase">up to 200 Miles in 15 minutes</p>
+        </div>
+      </div>
+
+    </article>
+    <!-- Jeep -->
+    <article hidden class="tesla-info flow" id="jeep-tab" tabindex="0" role="tabpanel">
+
+      <h2 class="fs-800 uppercase ff-serif">Jeep</h2>
+
+      <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. adfavf, quia! Ipsa reprdfadfehenderit corporis
+        quisquam qui consequuntur adfdeweafdf ipsam similique, eligendi commodi aut wrtwrfsfg fugiat animi adfrrtg
+        reiciendis nam numquam, voluptas est.</p>
+
+      <div class="sedan-cars flex">
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Avg. distace</h3>
+          <p class="fs-500 ff-serif uppercase">400 Miles</p>
+        </div>
+
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Charging time</h3>
+          <p class="fs-500 ff-serif uppercase">up to 200 Miles in 15 minutes</p>
+        </div>
+      </div>
+
+    </article>
+    <!-- MERCEDES -->
+    <article hidden class="tesla-info flow" id="mercedes-tab" tabindex="0" role="tabpanel">
+
+      <h2 class="fs-800 uppercase ff-serif">Mercedes</h2>
+
+      <p>Lorem ipsum dfadfr sit, amet consectetur adferr elit. Ipsum aspernatur dicta tenetur enim quod exercitationem
+        erqeafd tempore vitae, fugit ad architecto alias assumenda adfadv quos sdfase minima modi molestiae quis facere
+        sit dafreas dolorum? </p>
+
+      <div class="sedan-cars flex">
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Avg. distace</h3>
+          <p class="fs-500 ff-serif uppercase">400 Miles</p>
+        </div>
+
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Charging time</h3>
+          <p class="fs-500 ff-serif uppercase">up to 200 Miles in 15 minutes</p>
+        </div>
+      </div>
+
+    </article>
+
+
+
+  </main>
+
+</body>
+
+</html>
